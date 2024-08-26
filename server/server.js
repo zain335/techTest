@@ -23,6 +23,7 @@ app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/posts'));
 app.use('/api/tokens', require('./routes/api/tokens'));
 app.use('/api/token-pairs', require('./routes/api/tokenPairs'));
+app.use('/api/api-test/contract', require('./routes/api/contract'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
